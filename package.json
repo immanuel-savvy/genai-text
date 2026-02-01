@@ -1,0 +1,22 @@
+{
+  "name": "text",
+  "version": "1.0.0",
+  "description": "",
+  "license": "ISC",
+  "author": "Savvy",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "@godprotocol/repositories": "^1.1.27",
+    "body-parser": "^2.2.0",
+    "cors": "^2.8.5",
+    "crypto": "^1.0.1",
+    "dotenv": "^17.2.3",
+    "express": "^5.2.1",
+    "godprotocol": "^1.2.54"
+  }
+}
