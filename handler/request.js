@@ -39,12 +39,13 @@ async function streamFromLLM(messages, callback_url, request_id, user) {
 
       if (json.message?.content) {
         finalText += json.message.content;
-        console.log(finalText);
+        // console.log(finalText);
       }
     }
   }
 
   // Update task as completed
+  console.log(finalText);
   await (
     await LLM_TASKS()
   ).updateOne(
